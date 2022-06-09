@@ -1,0 +1,49 @@
+html,body,header,#intro{
+	height: 100%;
+}
+#intro{
+	background: url(../img/ph.jpg);
+	-webkit-background-size:cover;
+	background-size: cover;
+}
+#HH{
+	font-family: Mistral;
+	
+	font-stretch: ultra-condensed;
+	font-size:250px;
+}
+.top-nav-collapse{
+	background-color: #1E90FF;
+}
+@media (max-width: 768px){
+	.navbar:not(.top-nav-collapse){
+		background: #24355C;
+	}
+}
+.map-container{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.map-container iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+.adv-wrap{
+	font-size: 30px;
+}
+html {
+  scroll-behavior: smooth;
+
+  background: #fff ;
+	-webkit-background-size:cover;
+	background-size: cover;
+}
+#modalActivate {
+	color:  #fff; 
+  	background:#1E90FF; 
+  	border-radius:100px;
